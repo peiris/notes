@@ -9,57 +9,57 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <img
+      {/* <img
         src="/vercel-and-notion.png"
         height="85"
         width="250"
         alt="Vercel + Notion"
+      /> */}
+      <img
+        src="/logo.svg"
+        alt="kasun.io logo image svg"
+        height={20}
+        width={100}
       />
-      <h1>My Notion Blog</h1>
+      <h1>Notes by Kasun Peiris</h1>
       <h2>
-        Blazing Fast Notion Blog with Next.js'{' '}
+        Founder / CTO —{' '}
         <ExtLink
-          href="https://github.com/vercel/next.js/issues/9524"
+          href="https://karapincha.studio"
           className="dotted"
           style={{ color: 'inherit' }}
         >
-          SSG
+          Karapincha Studio
         </ExtLink>
       </h2>
 
-      <Features />
+      {/* <Features /> */}
+
+      <br />
 
       <div className="explanation">
         <p>
-          This is a statically generated{' '}
-          <ExtLink href="https://nextjs.org">Next.js</ExtLink> site with a{' '}
-          <ExtLink href="https://notion.so">Notion</ExtLink> powered blog that
-          is deployed with <ExtLink href="https://vercel.com">Vercel</ExtLink>.
-          It leverages some upcoming features in Next.js like{' '}
-          <ExtLink href="https://github.com/vercel/next.js/issues/9524">
-            SSG support
-          </ExtLink>{' '}
-          and{' '}
-          <ExtLink href="https://github.com/vercel/next.js/issues/8626">
-            built-in CSS support
-          </ExtLink>{' '}
-          which allow us to achieve all of the benefits listed above including
-          blazing fast speeds, great local editing experience, and always being
-          available!
+          Imperdiet lectus, iaculis fusce sapien. Habitant orci pellentesque
+          sollicitudin pretium vel a semper habitant potenti nulla mus. Nisi
+          odio, rhoncus eu cras mi augue fringilla. Duis sit hac enim pulvinar
+          proin arcu curae; aliquet potenti quisque arcu. Tempor congue quis
+          mattis elit magna ante consequat aliquet. Mi faucibus vehicula semper
+          feugiat tincidunt. Curabitur mauris auctor non luctus neque magnis
+          magna convallis purus dolor. Fringilla curae; at fames mauris. Vel
+          ornare posuere dictumst. Curabitur pulvinar laoreet sociis felis
+          montes libero, vehicula id ipsum ultrices. Taciti nullam non.
         </p>
 
         <p>
-          Get started by creating a new page in Notion and clicking the deploy
-          button below. After you supply your token and the blog index id (the
-          page's id in Notion) we will automatically create the table for you!
-          See{' '}
-          <ExtLink href="https://github.com/ijjk/notion-blog#getting-blog-index-and-token">
-            here in the readme
-          </ExtLink>{' '}
-          for finding the new page's id. To get your token from Notion, login
-          and look for a cookie under www.notion.so with the name `token_v2`.
-          After finding your token and your blog's page id you should be good to
-          go!
+          Eget lectus sit curabitur fusce odio nunc ligula eros. Montes vehicula
+          accumsan luctus curae;? Egestas penatibus dictumst mollis at quis,
+          varius auctor. Volutpat imperdiet congue odio ultrices integer
+          gravida. Gravida eu quis elit. Habitasse netus eleifend orci purus
+          odio eros dis risus interdum eros. Litora praesent pharetra eleifend
+          praesent dignissim blandit. Ultricies quisque montes ullamcorper a
+          nec. Nam mattis dapibus nam in porta! Sed vestibulum phasellus platea.
+          Fames viverra aenean egestas justo cum velit dignissim et dis cum ad
+          dolor? Non odio sed ad mus. Hac laoreet varius mi? Justo.
         </p>
       </div>
     </div>
