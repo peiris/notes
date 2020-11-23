@@ -10,7 +10,7 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Contact', page: '/contact' },
 ]
 
-const ogImageUrl = '/og-image.png'
+const ogImageUrl = 'https://notes.kasun.io/og-image.png'
 
 export default ({ titlePre = '' }) => {
   const { pathname } = useRouter()
